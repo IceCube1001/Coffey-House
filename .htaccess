@@ -1,4 +1,6 @@
-AuthName "Section Name"
-        AuthType Basic
-        AuthUserFile https://github.com/IceCube1001/Coffey-House/blob/master/.htpasswds
-        Require valid-user 
+uthUserFile https://github.com/IceCube1001/Coffey-House/blob/master/.htpasswds
+AuthName "Name of Secure Area"
+AuthType Basic
+<Limit GET POST>
+require user Coffey
+</Limit>
