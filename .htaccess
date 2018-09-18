@@ -1,4 +1,4 @@
 AuthName "Section Name"
         AuthType Basic
-        AuthUserFile https://icecube1001.github.io/Coffey-House/
+        AuthUserFile https://github.com/IceCube1001/Coffey-House/blob/master/.htpasswds
         Require valid-user 
